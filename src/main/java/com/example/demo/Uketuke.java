@@ -18,84 +18,84 @@ public class Uketuke {
 	private String nkPass;
 	
 	public int getUkeNo() {
-		return this.ukeNo
+		return ukeNo;
 	}
 	public void setUkeNo(int ukeNo) {
 		this.ukeNo = ukeNo;
 	}
 	
 	public String getSeiName() {
-		return this.seiName
+		return seiName;
 	}
 	public void setSeiName(String seiName) {
 		this.seiName = seiName;
 	}
 	
 	public String getMeiName() {
-		return this.meiName
+		return meiName;
 	}
 	public void setMeiName(String meiName) {
 		this.meiName = meiName;
 	}
 	
 	public String getNkAdd() {
-		return this.nkAdd
+		return nkAdd;
 	}
 	public void setNkAdd(String nkAdd) {
 		this.nkAdd = nkAdd;
 	}
 	
 	public String getNmAdd1() {
-		return this.nmAdd1
+		return nmAdd1;
 	}
 	public void setNmAdd1(String nmAdd1) {
 		this.nmAdd1 = nmAdd1;
 	}
 	
 	public String getNmAdd2() {
-		return this.nmAdd2
+		return nmAdd2;
 	}
 	public void setNmAdd2(String nmAdd2) {
 		this.nmAdd2 = nmAdd2;
 	}
 	
 	public String getNmAdd3() {
-		return this.nmAdd3
+		return nmAdd3;
 	}
 	public void setNmAdd3(String nmAdd3) {
 		this.nmAdd3 = nmAdd3;
 	}
 	
 	public String getNkTel() {
-		return this.nkTel
+		return nkTel;
 	}
 	public void setNkTel(String nkTel) {
 		this.nkTel = nkTel;
 	}
 	
 	public String getGenderNo() {
-		return this.genderNo
+		return genderNo;
 	}
 	public void setGenderNo(String genderNo) {
 		this.genderNo = genderNo;
 	}
 	
 	public String getBirthdayDt() {
-		return this.birthdayDt
+		return birthdayDt;
 	}
 	public void setBirthdayDt(String birthdayDt) {
 		this.birthdayDt = birthdayDt;
 	}
 	
 	public String getNkMail() {
-		return this.nkMail
+		return nkMail;
 	}
 	public void setNkMail(String nkMail) {
 		this.nkMail = nkMail;
 	}
 	
 	public String getNkPass() {
-		return this.nkPass
+		return nkPass;
 	}
 	public void setNkPass(String nkPass) {
 		this.nkPass = nkPass;
