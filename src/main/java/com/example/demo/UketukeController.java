@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ModelAttribute;
 
 @Controller
 public class UketukeController {
@@ -18,6 +19,19 @@ public class UketukeController {
 		List<Uketuke> list = this.uketukeService.getUketukeList();
 	    model.addAttribute("list", list);
 	    return "uketuke/index";
+	}
+	
+	@RequestMapping(path = "/member", method = RequestMethod.GET)
+	String member(Model model) {
+	    return "/uketuke/member";
+	}
+	
+	@RequestMapping(path = "/member", method = RequestMethod.POST)
+	String memberReg(Model model, @ModelAttribute  UketukeForm uketukeForm ) {
+		this.uketukeService.insertUketuke(model, uketukeForm);
+	    List<Uketuke> list = this.uketukeService.getUketukeList();
+	    model.addAttribute("list", list);
+		return "/uketuke/index";
 	}
 }
 						
