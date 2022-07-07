@@ -20,3 +20,4 @@ $(function(){
 	    $(this).val(halfVal.replace(/[^0-9]/g, ''));
 	  });
 });
+
